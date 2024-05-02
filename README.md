@@ -36,11 +36,11 @@ This project demonstrates how to set up continuous integration (CI) using Jenkin
     ls
     cd <repo-name>
     ```
-    # initialize git flow
+# initialize git flow
     ```bash
     git flow init
     ```
-   # make sure that you are on the develop branch
+ # make sure that you are on the develop branch
      ```bash
      git branch  
     ```
