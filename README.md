@@ -31,10 +31,12 @@ This project demonstrates how to set up continuous integration (CI) using Jenkin
     ```
 
 4.Clone the Repository:
+  
     ```bash
     git clone https://github.com/your-username/my-project.git
     ls
     cd <repo-name>
+   
     ```
 # initialize git flow
     ```bash
@@ -46,7 +48,9 @@ This project demonstrates how to set up continuous integration (CI) using Jenkin
     ```
 
 5.Add a Jenkinsfile:
--Create a file named Jenkinsfile in the root of your project with the following content:
+
+-Create a file named "Jenkinsfile" in the root of your project with the following content:
+ 
   ```bash
        pipeline {
     agent any
@@ -73,13 +77,16 @@ This project demonstrates how to set up continuous integration (CI) using Jenkin
 
 6.Launch an AWS EC2 instance:
   # Make this configurations
+    
     -Create new key
     -security:   # after you launch the instance 
     inbound rule:
      - custom tcp
      -port:8080
      -source:0.0.0.0/0
+ 
   # Install Jenkins on EC2:
+    
     1.Open the terminal
     2.Connect to your Ec2 instance:
      ```bash
