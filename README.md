@@ -12,7 +12,7 @@ This project demonstrates how to set up continuous integration (CI) using Jenkin
 
 ## GitHub Repository Setup:
     1.Create a GitHub Repository:
-      Go to GitHub and create a new repository. Let's name it my-project.
+      Go to GitHub and create a new repository. 
 
     2.Ensure the repository contains at least two branches:
       - develop for ongoing development.
